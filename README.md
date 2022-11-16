@@ -1,11 +1,11 @@
 
 # STM32_Si5352A
 Si5351 C Library for STM32 HAL (Based on Adafruit's si5351 driver)
-******************************************************************************
+******************************************************************
 Put all .h/c files into their respective folders
-*
+```
 (si5351_asserts.h,si5351_errors.h,si5351)--->/inc   , (si5351.c)--->/src
-
+```
 Modify si5351.c according to your platform
 ```
 #include "stm32h7xx_hal.h"
